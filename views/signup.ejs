@@ -1,0 +1,63 @@
+<%- include('header'); -%>
+
+    <form class="signup" onchange="setEmpty()">
+        <h2>SignUp</h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" required></input>
+        <label for="email">Email</label>
+        <input type="email" name="email" style="text-transform: lowercase"></input>
+        <div class="emailerror"></div>
+        <label for="password">Password</label>
+        <input type="password" name="password" minLength="8" required></input>
+        <label for="confirmPassword">ConfirmPassword</label>
+        <input type="password" name="reEnterPassword" minLength="8" required></input>
+        <div class="passworderror"></div>
+        <button type="submit">SignUp</button>
+    </form>
+    <script>
+
+        const form = document.querySelector("form");
+        const emailError = document.querySelector('.emailerror');
+        const passwordError = document.querySelector('.passworderror');
+
+        function setEmpty() {
+            emailError.textContent = "";
+            passwordError.textContent = "";
+        }
+
+        form.addEventListener("submit", async function (e) {
+            e.preventDefault()
+            const name = form.name.value;
+            const email = form.email.value;
+            const password = form.password.value;
+            const reEnterPassword = form.reEnterPassword.value
+            if (password == reEnterPassword) {
+                try {
+                    const res = await fetch("/signup", {
+                        method: 'POST',
+                        body: JSON.stringify({ name, email, password }),
+                        headers: { 'Content-Type': 'application/json' }
+                    })
+                    const data = await res.json()
+                    console.log(data);
+                    if (data.errors) {
+                        emailError.textContent = data.errors.email;
+                        passwordError.textContent = data.errors.password;
+                    }
+                    if (data.user) {
+                        location.assign('/');
+                    }
+                    // location.assign("/")
+                } catch (err) {
+                    console.log(err);
+                }
+            } else {
+                const div = document.querySelector(".passworderror")
+                div.innerHTML = "Passwords do not match"
+            }
+        })
+
+    </script>
+    </body>
+
+    </html>
