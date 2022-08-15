@@ -8,15 +8,17 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/"><img src="/Kriova.png" alt=""></a>
-        <ul>
-            <% if(user) { %>
-                <li><a href="/logout">Log out</a></li>
-                </h5>
-                <% } else { %>
-                    <li><a href="/login">Log in</a></li>
-                    <li><a href="/signup" class="btn">Sign up</a></li>
-                    <% } %>
-        </ul>
-    </nav>
+    <div class="header">
+        <nav>
+            <a href="/"><img src="/Kriova.png" alt=""></a>
+            <ul>
+                <% if(user) { %>
+                    <li><a href="/logout">Log out</a></li>
+                    </h5>
+                    <% } else { %>
+                        <li><a href="/login">Log in</a></li>
+                        <li><a href="/signup" class="btn">Sign up</a></li>
+                        <% } %>
+            </ul>
+        </nav>
+    </div>

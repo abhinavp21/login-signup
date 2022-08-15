@@ -1,15 +1,14 @@
 <%- include('header'); -%>
 
-    <center>
-        <div class="profile">
-            <img src="/profile.png" alt="">
-            <h2>
-                <%= user.email %>
-            </h2>
-            <h3>employee at Kriova</h3>
+    <div class="container">
+        <div class="cover-photo">
+            <img src="profile.png" class="profile">
         </div>
-
-    </center>
+        <div class="profile-name">
+            <%=user.email%>
+        </div>
+        <p class="about">User Interface Designer and<br>front-end developer</p>
+    </div>
     </body>
 
     </html>
