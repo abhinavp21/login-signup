@@ -1,0 +1,122 @@
+module.exports = [
+    {
+        EmployeeID: 12345678,
+        EmployeeName: "Abhinav",
+        DateOfBirth: 2000 - 05 - 03,
+        Email: "ap.abhinav16@gmail.com",
+        PhoneNumber: 9893423463,
+        Street: "Haridwar Road",
+        City: "dehradun",
+        State: "uttarakhand",
+        Country: "india",
+        Pincode: 249001
+    },
+    {
+        EmployeeID: 12345679,
+        EmployeeName: "Anjali",
+        DateOfBirth: 2004 - 08 - 03,
+        Email: "ap.asnjal@gmail.com",
+        PhoneNumber: 9893223463,
+        Street: "Rishikesh Road",
+        City: "dehradun",
+        State: "uttarakhand",
+        Country: "pakistan",
+        Pincode: 242001
+    },
+    {
+        EmployeeID: 12345278,
+        EmployeeName: "Rakesh",
+        DateOfBirth: 2003 - 01 - 03,
+        Email: "ap.rakesh@gmail.com",
+        PhoneNumber: 7892423463,
+        Street: "mussoriee Road",
+        City: "dehradun",
+        State: "jharkhand",
+        Country: "india",
+        Pincode: 239701
+    },
+    {
+        EmployeeID: 12915678,
+        EmployeeName: "Mukesh",
+        DateOfBirth: 1923 - 05 - 03,
+        Email: "ap.mukesh16@gmail.com",
+        PhoneNumber: 9881423463,
+        Street: "Haridwar Road",
+        City: "mohali",
+        State: "punjab",
+        Country: "india",
+        Pincode: 24611
+    },
+    {
+        EmployeeID: 82345678,
+        EmployeeName: "Pranav",
+        DateOfBirth: 2000 - 03 - 29,
+        Email: "ap.pranav16@gmail.com",
+        PhoneNumber: 6293423463,
+        Street: "colony Road",
+        City: "dehradun",
+        State: "uttarakhand",
+        Country: "india",
+        Pincode: 246201
+    },
+    {
+        EmployeeID: 32915678,
+        EmployeeName: "Vivek",
+        DateOfBirth: 2000 - 08 - 04,
+        Email: "ap.vivek16@gmail.com",
+        PhoneNumber: 9852423463,
+        Street: "colony Road",
+        City: "dehradun",
+        State: "uttarakhand",
+        Country: "india",
+        Pincode: 297911
+    },
+    {
+        EmployeeID: 32915678,
+        EmployeeName: "Ridham",
+        DateOfBirth: 2000 - 03 - 21,
+        Email: "ap.ridham16@gmail.com",
+        PhoneNumber: 9864423463,
+        Street: "dunk Road",
+        City: "dehradun",
+        State: "delhi",
+        Country: "india",
+        Pincode: 272031
+    },
+    {
+        EmployeeID: 72945678,
+        EmployeeName: "Shubham",
+        DateOfBirth: 2000 - 09 - 16,
+        Email: "ap.shubham16@gmail.com",
+        PhoneNumber: 9882423463,
+        Street: "panipat Road",
+        City: "panipat",
+        State: "haryana",
+        Country: "india",
+        Pincode: 241821
+    },
+    {
+        EmployeeID: 72945609,
+        EmployeeName: "roshan",
+        DateOfBirth: 2001 - 01 - 03,
+        Email: "ap.roshan@gmail.com",
+        PhoneNumber: 7825423463,
+        Street: "premnagar Road",
+        City: "dehradun",
+        State: "jharkhand",
+        Country: "india",
+        Pincode: 892011
+    },
+    {
+        EmployeeID: 72335678,
+        EmployeeName: "Rahul",
+        DateOfBirth: 2000 - 01 - 23,
+        Email: "ap.rahul16@gmail.com",
+        PhoneNumber: 6213423463,
+        Street: "premnagar Road",
+        City: "dehradun",
+        State: "uttarakhand",
+        Country: "india",
+        Pincode: 226211
+    }
+]

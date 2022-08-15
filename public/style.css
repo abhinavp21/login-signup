@@ -1,0 +1,163 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background: #28223f;
+}
+
+.container {
+    user-select: none;
+    margin: 100px auto;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 5px;
+    width: 350px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .75);
+}
+
+.cover-photo {
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+}
+
+.profile-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+}
+
+.about {
+    margin-top: 35px;
+    line-height: 21px;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: #1b2a49 !important;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+nav a{
+        margin: auto 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin:0 auto 30px;
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 36px;   
+    color: #222535;
+    background: #FEE996;
+    margin: auto;
+}
+
+nav li a:hover{
+    background: #f7c707;
+}
+.signup {
+    width: 400px;
+    background: #9b95bc;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+    padding: .7rem;
+    margin: auto;
+}
+.signup h2, .signup p, .signup a{
+    text-align: center;
+    margin: .5rem;
+}
+
+.signup>a{
+    display: block;
+    margin: auto;
+}
+.signup a:link{
+    color: #00376b;
+    text-decoration: none;
+}
+.signup a:hover{
+    color: #1877f2;
+}
+.signup label, .emailerror, .passworderror {
+    margin-left: 1.9rem;
+}
+.signup>input {
+    border-radius: 8px;
+    border: solid #7e8185;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0 .8rem;
+    padding: 0.3rem 0.4rem;
+    width: 80%;
+    display: block;
+}
+
+.signup input{
+    margin-left: 1.5rem;
+}
+
+.signup button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem 1rem;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    width: 90%;
+    text-align: center;
+}
+
+.emailerror, .passworderror{
+    color: red;
+    margin-bottom: .8rem;
+}
+
+.sentMail{
+    margin: 20px;
+    color: #ed3131;
+    text-align: center;
+}
+
